@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('code fetch from github') {
             steps {
-               echo 'cloning the github code for next process'
+               echo 'cloning the github code for the next process'
                git branch: 'master', url: 'https://github.com/Madhuri-Indarapu/simple-java-maven-app.git'
             }
         }
